@@ -49,12 +49,6 @@ The models were evaluated using the following metrics:
 | Random Forest | 0.92 | 0.88 | 0.90 | 0.94 |
 | XGBoost | 0.94 | 0.90 | 0.92 | 0.96 |
 
-#### **Confusion Matrix Example (for XGBoost)**
-```
-              Predicted: No Disease    Predicted: Disease
-Actual: No Disease          120                  10
-Actual: Disease             5                   65
-```
 
 ---
 
