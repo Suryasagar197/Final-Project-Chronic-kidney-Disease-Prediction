@@ -44,13 +44,12 @@ The models were evaluated using the following metrics:
 - **Confusion Matrix**
 
 ### **Comparison Table**
-| Model | Precision | Recall | F1-score | AUC |
-|--------|-----------|--------|----------|------|
-| Logistic Regression | 0.89 | 0.85 | 0.87 | 0.91 |
-| SVM | 0.88 | 0.84 | 0.86 | 0.92 |
-| Decision Tree | 0.85 | 0.82 | 0.83 | 0.88 |
-| Random Forest | 0.92 | 0.88 | 0.90 | 0.94 |
-| XGBoost | 0.94 | 0.90 | 0.92 | 0.96 |
+Model	Accuracy (%)	Precision (%)	Recall (%)	F1-Score (%)	ROC-AUC (%)
+Logistic Regression	98.26	98.82	98.84	98.26	99.90
+Decision Tree	97.11	96.79	97.68	97.11	97.91
+Random Forest	98.56	99.49	97.67	98.39	100
+SVM	97.39	96.6	98.23	97.39	99.70
+XGBoost	98.56	98.97	98.23	98.51	99.90
 
 
 ---
