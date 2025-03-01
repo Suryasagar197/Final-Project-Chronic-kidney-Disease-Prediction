@@ -43,16 +43,21 @@ The models were evaluated using the following metrics:
 - **ROC-AUC Curve**
 - **Confusion Matrix**
 
-### **Comparison Table**
-Model	Accuracy (%)	Precision (%)	Recall (%)	F1-Score (%)	ROC-AUC (%)
-Logistic Regression	98.26	98.82	98.84	98.26	99.90
-Decision Tree	97.11	96.79	97.68	97.11	97.91
-Random Forest	98.56	99.49	97.67	98.39	100
-SVM	97.39	96.6	98.23	97.39	99.70
-XGBoost	98.56	98.97	98.23	98.51	99.90
+### **Performance Comparison Table**
 
+| Model               | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) | ROC-AUC (%) |
+|---------------------|-------------|--------------|------------|-------------|-------------|
+| Logistic Regression | 98.26       | 98.82        | 98.84      | 98.26       | 99.90       |
+| Decision Tree      | 97.11       | 96.79        | 97.68      | 97.11       | 97.91       |
+| Random Forest      | 98.56       | 99.49        | 97.67      | 98.39       | 100.00      |
+| SVM               | 97.39       | 96.60        | 98.23      | 97.39       | 99.70       |
+| XGBoost           | 98.56       | 98.97        | 98.23      | 98.51       | 99.90       |
 
----
+## Summary
+- **Random Forest and XGBoost** achieved the highest accuracy (98.56%).
+- **Random Forest** had the highest Precision (99.49%) and ROC-AUC (100%).
+- **Logistic Regression** and **XGBoost** had a high balance between all metrics.
+
 
 ## **Hyperparameter Tuning**
 Each model was fine-tuned using **GridSearchCV** to find the best parameters:
