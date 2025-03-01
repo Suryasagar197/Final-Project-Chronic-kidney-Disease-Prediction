@@ -1,7 +1,10 @@
 # **Chronic Kidney Disease Prediction using Machine Learning**
 
 ## **Overview**
-This project aims to predict Chronic Kidney Disease (CKD) using various machine learning models. The dataset contains missing values and class imbalance, which were handled through appropriate preprocessing steps. The project involves training multiple models, evaluating their performance using key metrics, and tuning hyperparameters for optimization.
+Chronic Kidney Disease (CKD) is a critical public health concern requiring early and accurate detection to prevent severe complications. This study employs machine learning techniques to develop and evaluate predictive models for CKD classification using a preprocessed dataset. Five machine learning models—Logistic Regression, Decision Tree, Random Forest, Support Vector Machine (SVM), and XGBoost—were trained and optimized using hyperparameter tuning and cross-validation to ensure robust performance.
+Feature selection and Principal Component Analysis (PCA) were applied to enhance model efficiency, while Synthetic Minority Oversampling Technique (SMOTE) was used to address class imbalance. The models were evaluated using key metrics such as accuracy, precision, recall, F1-score, and ROC-AUC, with statistical paired T-tests conducted to determine significant performance differences.
+Results demonstrated that XGBoost and Random Forest outperformed other models, achieving 99% accuracy, perfect recall, and the highest ROC-AUC scores, making them the most reliable choices for CKD detection. Logistic Regression provided a strong interpretable baseline, while Decision Tree and SVM exhibited lower performance due to overfitting and precision trade-offs.
+The study highlights the effectiveness of ensemble methods in medical diagnosis and emphasizes the need for balanced datasets and feature engineering in predictive modeling. These findings suggest that XGBoost and Random Forest can serve as powerful tools for CKD diagnosis, aiding in early intervention and patient management.
 
 ### **Machine Learning Models Used**
 1. **Logistic Regression**
