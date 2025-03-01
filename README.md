@@ -128,7 +128,7 @@ python main.py
 ---
 
 ## **Contributors**
-- **Your Name**
+- **surya**
 
 ---
 
