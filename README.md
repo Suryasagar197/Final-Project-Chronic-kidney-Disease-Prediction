@@ -122,6 +122,15 @@ Each model was fine-tuned using **GridSearchCV** to find the best parameters:
 - **Automated Hyperparameter Tuning**: Implement **Bayesian Optimization** for fine-tuning.
 
 ---
+**Statistical Analysis: Paired T-Tests for Model Comparisons**
+Paired T-tests were conducted to determine whether the differences in performance across various models were statistically significant. The T-statistic indicates the difference between models, while the P-value measures whether that difference is statistically significant.
+
+**Conclusion & Model Recommendation**
+XGBoost and Random Forest exhibit statistically equivalent accuracy, precision, recall, and F1-scores.
+Decision Tree underperforms compared to XGBoost and Random Forest in several metrics.
+Logistic Regression outperforms Decision Tree in ROC-AUC, meaning it better distinguishes CKD vs. non-CKD cases.
+No major statistical differences between XGBoost and Random Forest, making them both ideal models.
+
 
 ## **How to Run the Project**
 1. Clone the repository:
