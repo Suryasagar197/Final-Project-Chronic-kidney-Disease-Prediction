@@ -43,7 +43,7 @@ The models were evaluated using the following metrics:
 - **ROC-AUC Curve**
 - **Confusion Matrix**
 
-### **Performance Comparison Table before hypertuning **
+### **Performance Comparison Table before hypertuning**
 
 | Model               | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) | ROC-AUC (%) |
 |---------------------|-------------|--------------|------------|-------------|-------------|
@@ -85,7 +85,7 @@ Each model was fine-tuned using **GridSearchCV** to find the best parameters:
   - `subsample`: [0.5, 0.7, 1.0]
 
 ---
-## **Performance Comparison Table after hypertuning **
+## **Performance Comparison Table after hypertuning**
 
 | Model               | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) | ROC-AUC (%) |
 |---------------------|-------------|--------------|------------|-------------|-------------|
